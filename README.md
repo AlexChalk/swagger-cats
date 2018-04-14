@@ -1,21 +1,18 @@
-# swagger-service
+# Swagger Cats
 
-generated using Luminus version "2.9.12.27"
+View pictures of cats thanks to Clojure(script) and [thecatapi.com](http://thecatapi.com/).
 
-FIXME
+### Running
 
-## Prerequisites
+To start everything from a single terminal window:
 
-You will need [Leiningen][1] 2.0 or above installed.
+    lein repl
+    (start)
+    (use 'figwheel-sidecar.repl-api)
+    (start-figwheel!)
 
-[1]: https://github.com/technomancy/leiningen
+Then navigate to http://localhost:3000 and enjoy!
 
-## Running
+### Other Notes
 
-To start a web server for the application, run:
-
-    lein run 
-
-## License
-
-Copyright © 2018 FIXME
+Built from a tutorial in  Dmitri Sotnikov's book [Web Development with Clojure](https://pragprog.com/book/dswdcloj/web-development-with-clojure).
